@@ -18,5 +18,6 @@
     "forceConsistentCasingInFileNames": true,
     "noEmitOnError": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": ["tests", "node_modules", "dist"]
 }
