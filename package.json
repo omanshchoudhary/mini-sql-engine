@@ -1,0 +1,27 @@
+{
+  "name": "mini-sql-engine",
+  "version": "1.0.0",
+  "description": "A lightweight SQL engine for querying in-memory JSON datasets.",
+  "homepage": "https://github.com/omanshchoudhary/mini-sql-engine#readme",
+  "bugs": {
+    "url": "https://github.com/omanshchoudhary/mini-sql-engine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omanshchoudhary/mini-sql-engine.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
